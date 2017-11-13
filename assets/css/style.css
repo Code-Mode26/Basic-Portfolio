@@ -1,0 +1,21 @@
+
+header {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 33%;
+	text-align: center;
+	float: left;
+}
+
+.wrapper {
+	width: 650px;
+}
+
+#navigate {
+	float: right;
+	color: #777777;
+}
+
+#content {
+	color: #777777;
+}
