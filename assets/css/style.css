@@ -1,14 +1,14 @@
 
-header {
+nav {
 	background-color: #ffffff;
 	border-color: #cccccc;
 	text-align: center;
-	margin: 0;
+	/*padding: 50px;*/
+	border-bottom: 30px solid #dddddd;
 }
 
 body {
-	/*background-image: url("assets/images/dust_scratches.pngg");
-	margin: 0;*/
+	background: url("assets/images/spiration dark.png");
 }	
 
 #name {
@@ -18,11 +18,17 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	margin-left: 10%;
+
+}
+a:link {
+	color: #777777;
+	text-decoration: none;
 }
 
-a {
-	color: #777777
+aside {
+	
 }
+	
 
 .wrapper {
 	width: 650px;
@@ -31,13 +37,19 @@ a {
 }
 
 #navigate {
-
+	margin-top: 30px;
 	float: right;
 }
 
 #content {
 	color: #777777;
+	position: relative;
+	clear: both;
+}
 
+#connect {
+	margin-bottom: 50px;
+	float: right;
 }
 
 #pic {
@@ -52,5 +64,7 @@ footer {
 	text-align: center;
 	height: 80px;
 	padding-top: 30px;
+	clear: both;
+	border-top: 5px solid #4aaaa5;
 	
 }
