@@ -33,6 +33,13 @@ body {
 a:link {
 	color: #777777;
 	text-decoration: none;
+}	
+a:visited {
+	color: #777777;
+}
+
+a:hover {
+	color: #4aaaa5;
 }
 
 aside {
