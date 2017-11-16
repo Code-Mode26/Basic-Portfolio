@@ -16,8 +16,8 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	margin: 0px;
 	padding: 0px;
-	/*Does not work????
-	background: url("assets/images/dust_scratches.png");*/
+
+	background-image: url("../images/dust_scratches.png");
 }	
 
 #namefield {
@@ -110,8 +110,13 @@ input[type=submit]:hover {
 
 .app-logo img {
   max-width: 100%;
-
+  width: 240px;
+  height: 180px;
+  padding: ;
+  margin: ;
+  border: 2px solid black;
 }
+
 /*Portfolio page code end*/
 
 #navigate {
@@ -157,6 +162,7 @@ img.resize {
 	width: 100px;
 	height: 100px;
 }
+
 
 #pic {
 	float: left;
