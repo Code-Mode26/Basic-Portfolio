@@ -29,6 +29,13 @@ body {
 	height: 68px;
 }
 
+#navigate {
+	margin-top: 30px;
+	float: right;
+	margin-right: 8%;
+	word-spacing: 5px;
+}
+
 a:link {
 	color: #777777;
 	text-decoration: none;
@@ -46,27 +53,14 @@ span {
 	color: #dddddd;
 }
 
-aside {
-	float: right;
-	width: 31%;	
+#wrapper {
+	width: 1060px;
+	margin-left: 60px;
 }
 
 section {
 	float: left;
   	width: 53%;
-}
-
-#navigate {
-	margin-top: 30px;
-	float: right;
-	margin-right: 8%;
-	word-spacing: 5px;
-}
-
-h2 {
-	border-bottom: 3px solid #dddddd;
-	padding-bottom: 20px;
-	color: #4aaaa5;
 }
 
 #content {
@@ -80,12 +74,15 @@ h2 {
 	padding-bottom: 30px;
 }
 
-#connect h3 {
-	border-bottom: 2px solid #dddddd;
-	padding-bottom: 10px;
-	margin-right: 40px;
-	margin-left: 40px;
+h2 {
+	border-bottom: 3px solid #dddddd;
+	padding-bottom: 20px;
 	color: #4aaaa5;
+}
+
+aside {
+	float: right;
+	width: 31%;	
 }
 
 #connect {
@@ -96,6 +93,14 @@ h2 {
 	width: 270px;
 	margin-right: 7%;
 	padding: 0px 0px 15px 0px;
+}
+
+#connect h3 {
+	border-bottom: 2px solid #dddddd;
+	padding-bottom: 10px;
+	margin-right: 40px;
+	margin-left: 40px;
+	color: #4aaaa5;
 }
 
 #connect a:hover {
@@ -119,16 +124,15 @@ footer {
 
 
 /*index.html code begin*/
-img.resize {
-	width: 100px;
-	height: 100px;
-}
-
-
 #pic {
 	float: left;
 	padding-right: 20px;
 	padding-bottom: 20px;
+}
+
+img.resize {
+	width: 100px;
+	height: 100px;
 }
 
 p {
@@ -176,6 +180,13 @@ p {
 
 
 /*contact.html code begin */
+.container {
+    border-radius: 5px;
+    background-color: #ffffff;
+   	padding-bottom: 20px;
+ 
+}
+
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;  
@@ -198,12 +209,5 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #1b6b69;
-}
-
-.container {
-    border-radius: 5px;
-    background-color: #ffffff;
-   	padding-bottom: 20px;
- 
 }
 /*contact.html code end*/
