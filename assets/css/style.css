@@ -168,8 +168,6 @@ p {
 	height: 30px;
 	padding-top: 10px;
 	margin-bottom: 5px;
-	opacity: .75;
-	cursor: pointer;
 }
 
 .app-logo img {
@@ -178,6 +176,10 @@ p {
     height: 180px;
     border: 3px solid #777777;
 
+}
+
+ #apps a:hover {
+	opacity: 0.80;
 }
 /*portfolio.html code end*/
 
